@@ -25,6 +25,7 @@ Include:
 - live questions;
 - major cognitive shifts;
 - key concepts and shallow mastery states;
+- important reader-generated models;
 - important digressions;
 - active or recent action experiments;
 - next entry point.
@@ -51,9 +52,11 @@ Store compressed reader trace, not transcripts:
 - meaningful questions;
 - judgments;
 - confusions;
+- counterexample signals and what they changed;
 - thought reflections;
 - provisional names;
 - cognitive shifts;
+- reader tendency observations or interpretive hypotheses when supported and useful;
 - rare emotional or resistance signals when they matter.
 
 Quote the reader only when exact wording marks an important turn.
@@ -69,6 +72,15 @@ Track important concepts:
 - mastery state;
 - natural recall opportunities.
 
+Also track reader-generated models when they become useful:
+
+- provisional name;
+- trigger text anchor or discussion moment;
+- what problem or tension the model explains;
+- boundary cases or counterexamples;
+- maturity cue;
+- whether it should remain local or become a cross-book model seed.
+
 ### `chapters.md`
 
 Despite the filename, use flexible reading units. Store dense closures for chapters, sections, concept clusters, page ranges, or natural stopping points.
@@ -80,6 +92,7 @@ Each closure should be short and high-signal:
 - key concepts;
 - reader questions;
 - critical reminder if useful;
+- what can remain unresolved for now when reading is dense;
 - optional action experiment;
 - next hook when useful.
 
@@ -98,10 +111,12 @@ Capture valuable digressions:
 Track action experiments and voluntary results:
 
 - source idea;
-- small experiment;
+- small experiment or contact experiment;
 - relevance;
 - status only if reported;
 - result and learning if voluntarily provided.
+
+For contact experiments, avoid streaks, scores, or performance tracking. Record only the source insight, the small noticing practice, and any voluntary reflection.
 
 ### `final-internalization.md`
 
@@ -146,6 +161,8 @@ Lightweight index of read or discussed materials:
 ### `cross-book-index.md`
 
 Connect concepts, questions, judgments, action experiments, and theme seeds across books. Keep it sparse and useful, not exhaustive.
+
+Also preserve high-value reader-generated models as cross-book model seeds when they recur across contexts, explain a recurring tension, or may illuminate future books. If reader tendency models or interpretive hypotheses are stored here, keep them provisional, evidence-based, and directly useful for coaching.
 
 ## Storage Rules
 
