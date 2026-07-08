@@ -81,6 +81,9 @@ Generate public-facing summaries only when the user asks.
 
 Maintain AI-first Markdown dossiers silently. The reader interacts through the coach and usually will not inspect files.
 
+- Treat the dossier root in `references/dossier-schema.md` as the canonical shared reading archive across assistants, including Codex and Hermes. Do not create a separate archive when the shared root is available.
+- Use one folder per book inside the shared root. Different books read with different assistants should still live under the same `sponge-reading-coach` archive.
+- Update the shared `reading-history-index.md` and `cross-book-index.md` after meaningful book-level or cross-book changes, even when the current assistant did not read earlier books.
 - Store compressed reader trace, not transcripts.
 - Store text anchors, not long excerpts.
 - Keep `handoff.md` current after valuable updates.

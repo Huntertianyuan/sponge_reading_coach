@@ -4,7 +4,11 @@ Default root:
 
 `/Users/tianyuan/Documents/Codex/reading-notes/sponge-reading-coach`
 
-Use one folder per book. Folder names should be stable and readable, based on title and author when available.
+Use this root as the canonical shared reading archive when it is accessible, including across Codex, Hermes, or other assistants using this skill. Installing the skill does not create a separate archive; the assistant must continue from this root unless the user explicitly chooses a different one.
+
+Use one folder per book inside the shared root. Folder names should be stable and readable, based on title and author when available. Different assistants may read different books, but they should still create those book folders under the same `sponge-reading-coach` root.
+
+Before starting or resuming a book, inspect the shared root for an existing matching book folder, then read that book's `handoff.md` if present. Also inspect `reading-history-index.md` and `cross-book-index.md` when cross-book context may help.
 
 ## Per-Book Files
 
@@ -125,6 +129,8 @@ For abandoned books, include:
 For fiction, keep closure lightweight and experience-centered.
 
 ## Cross-Book Files
+
+These files belong directly under the shared root and must be updated by any assistant that makes meaningful book-level or cross-book changes. Do not create assistant-specific copies.
 
 ### `reading-history-index.md`
 
