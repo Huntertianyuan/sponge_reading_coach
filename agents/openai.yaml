@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sponge Reading Coach"
+  short_description: "Long-form reading coach with AI-first memory"
+  default_prompt: "Use $sponge-reading-coach to accompany my reading of this full book over time."
